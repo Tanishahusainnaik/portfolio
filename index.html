@@ -1,0 +1,124 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Tanisha Husiannaik" />
+  <title>Tanisha Husiannaik • Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Go to top">TH</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">☰</button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 id="intro-title">Hi, I'm <span class="accent">Tanisha Husiannaik</span></h1>
+          <p class="subtitle">Engineering student in Computer Engineering</p>
+          <p class="lede">Front‑end focused, data‑curious. I work with HTML, CSS, JavaScript, React, Excel, Power BI, SQL, and Canva.</p>
+          <div class="cta-group">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="avatar" title="Profile placeholder">TH</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About</h2>
+        <p>
+          I'm an engineering student specializing in Computer Engineering. I enjoy building clean, responsive web interfaces and exploring data through visualizations and simple analytics.
+        </p>
+        <p>
+          This portfolio is a living snapshot of my skills and projects. I'll keep adding coursework, personal projects, and data dashboards as I grow.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <ul class="skills-grid" role="list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Excel</li>
+          <li>Power BI</li>
+          <li>SQL</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="card">
+            <h3>Responsive Portfolio Website</h3>
+            <p>A clean, responsive portfolio template built with semantic HTML, modern CSS, and a sprinkle of JavaScript. You're looking at it!</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </article>
+          <article class="card">
+            <h3>Sample React App</h3>
+            <p>Placeholder for a React project. Replace this with your own app, coursework, or mini project.</p>
+            <div class="tags"><span>React</span><span>JavaScript</span></div>
+          </article>
+          <article class="card">
+            <h3>Power BI Dashboard</h3>
+            <p>A sample sales dashboard showcasing KPIs, trends, and filters. Replace with your own Power BI report link or screenshots.</p>
+            <div class="tags"><span>Power BI</span><span>Excel</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact-card">
+          <p><strong>Phone:</strong> <a href="tel:+919535859746">+91 95358 59746</a></p>
+          <p><strong>Email:</strong> <a href="mailto:tanishamh047@gmail.com">tanishamh047@gmail.com</a></p>
+          <p><strong>Location:</strong> India</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:tanishamh047@gmail.com?subject=Hello%20Tanisha">Email Me</a>
+            <a class="btn" href="#" aria-disabled="true">Download Resume (add later)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tanisha Husiannaik</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
